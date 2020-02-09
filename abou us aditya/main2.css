@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+}
+h1{
+    color: black;
+    font-size: 3rem;
+    font-family: 'Uncial Antiqua', cursive;
+   margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+/*.flex-container {
+ max-width: 205vh;
+ display: flex;
+ flex-wrap: wrap;
+ padding-left: 50px;  
+ padding-right: 50px;    
+}*/
+
+div {
+  color: black;    
+  background-color:black;
+  max-width: auto;
+  text-align: center;
+  line-height: 35px;
+  font-size: 25px;
+  padding-bottom: 5vh;
+    padding-right: 10vh;
+}
+
+/*.para,.image{
+    flex: 1;
+}*/
+.image{
+   object-fit: fill;
+    align-self: center;
+    
+} 
+.para{
+    font-family: 'Zhi Mang Xing', cursive;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    box-shadow: 3px 3px 20px grey;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 5vh;
+}
+
+
+/* Make the image fit the box 
+.image video {
+  width: 100%;
+  border: 1px solid #8a4419;
+  border-style: inset;
+}*/

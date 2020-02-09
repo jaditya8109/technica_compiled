@@ -1,0 +1,113 @@
+body
+{
+	color:black;
+	background: url("technicabackground.jpg");
+	/*font-size: 100;*/
+  
+
+	
+}
+/*.button1{
+    	font-size: 10;
+    	font-color:white;
+    }
+*/
+
+/*p
+{
+	margin-left: 10%
+}*//*
+@media (min-width: 768px){
+.cardbody {
+margin-left: 20%
+}}*/
+
+/*.plus-minus-toggle {
+  cursor: pointer;
+  height: 21px;
+  position: relative;
+  width: 21px;
+  &:before,
+  &:after{
+    background: #000;
+    content: '';
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 21px;
+    transition: transform 500ms ease;
+  }
+  &:after {
+    transform-origin: center;
+  }
+  &.collapsed {
+    &:after {
+      transform: rotate(90deg);
+    }
+    &:before {
+      transform: rotate(180deg);
+    }
+  }
+}*/
+
+
+{
+  padding: 30px;
+}
+.opened .vertical {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(-90deg);
+  }
+ .opened .horizontal {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+
+
+.closed .vertical {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(90deg);
+  }
+  .closed .horizontal {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+
+
+.circle-plus {
+    height: auto;
+    width: auto;
+    font-size: 1em;
+    opacity: 1;
+}
+
+.circle-plus .circle {
+    position: relative;
+    width: 45%;
+    height: 45%;
+    border-radius: 100%;
+    border: solid .5em #27a5ef;
+}
+.circle-plus .circle .horizontal {
+    position: absolute;
+    background-color: white;
+    width:1.2rem;
+    height: 5px;
+    left: 50%;
+    margin-left: -9.5px;
+    top: 50%;
+    margin-top: -2.5px;
+}
+.circle-plus .circle .vertical {
+    position: absolute;
+    background-color: white;
+    width: 5px;
+    height: 1.2rem;
+    left: 50%;
+    margin-left: -2.5px;
+    top: 50%;
+    margin-top: -9.5px;
+}

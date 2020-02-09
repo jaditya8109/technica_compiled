@@ -1,0 +1,15 @@
+img.effect {
+  height:5em;
+  padding-left:50px;
+  height:100px;
+  width:200px;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+img.effect:hover{
+  width: 300px;
+  height: 150px;
+
+}

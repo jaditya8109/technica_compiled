@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>events</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	
+	<link rel="stylesheet" href="swiper.min.css">
+	<link rel="stylesheet" href="rough1.css">
+
+</head>
+<body>
+	<font size="5" color="white"><center><h1>Events</h1></center></font>
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<a href="#" target="_blank"><img src="c3.png"></a>
+      </div>
+      <div class="swiper-slide active"><img src="c3.png"></div>
+      <div class="swiper-slide"><a href="#"><img src="c3.png"></a></div>
+      <div class="swiper-slide"><img src="c3.png"></div>
+      <div class="swiper-slide"><img src="c3.png"></div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+  </div>
+
+
+	<script type="text/javascript" src="swiper.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      speed: 600,
+      parallax: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+     },
+     navigation: {
+     	nextEl: '.swiper-button-next',
+     	prevEl: '.swiper-button-prev',
+     },
+    });
+  </script>
+
+</body>
+</html>
