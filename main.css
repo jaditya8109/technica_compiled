@@ -1,6 +1,27 @@
-body{
-    background-color: black;
+#content{
+    background-image: url(bg.jpg);
+    color: white !important;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    align-content: space-around;
+    align-items: center;
 }
+
+#countdown{
+    background-image: url("c1.jpg") ;
+    background-size: cover;
+}
+/*#about_us_section {
+    background-image: url("l1.jpg");
+}
+#themes{
+    background-image: url("l1.jpg");
+}
+#faq{
+    background-image: url("l1.jpg");
+    padding-bottom: 15vh !important;
+}*/
+
 h1{
     margin-top: 2vh;
     font-size: 3rem;
@@ -9,7 +30,7 @@ h1{
     max-width: 20vw;
 }
 .partners{
-    padding-bottom: 3vh;
+    margin-bottom: 5vh;
   
 }
 .partnerss{
@@ -21,13 +42,9 @@ h1{
   margin-top: 5vh;
 }
 .partner_element{
-    height: 100%;
+    height: auto;
     margin:auto;
-    height: 100px;
-    width: 80%;
-    padding-top: 5vh;
-    align-content: center;
-  
+    width: 85%;  
     }
 
 img.partner_elements{

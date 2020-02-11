@@ -1,7 +1,10 @@
+
 #partners_section{
     padding-top: 7vh;
 }
-
+#landing_page{
+    background-image: url("l1.jpg");
+}
 
 #about_us{
    
@@ -89,14 +92,6 @@ html{
 }
 .sketch{
   height: 100vh !important;
-}
-
-body{
-	background-image: linear-gradient(to right, #1B181F, #363138);
-	color: white!important ;
-	text-align: center;
-    width:100%;
-    font-family: 'Roboto';
 }
 
 #wrapper{
@@ -221,9 +216,9 @@ margin-top: 5vh;
 }
 
 #about_us_section{
-  margin-top: 15vh;
-  margin-bottom: 20vh;
-  min-height: 50vh !important;
+  padding-top: 15vh;
+  padding-bottom: 20vh;
+  min-height: 80vh !important;
   background-color: 
   
 }
@@ -263,8 +258,8 @@ margin-top: 5vh;
   padding-top: 5vh !important;
 }
 footer{
-  background: grey !important;
-  margin-top: 15vh !important;
+  background: black !important;
+  
 }
 p{
 	text-align: center !important;
@@ -329,7 +324,7 @@ p{
 
 
 .para{
-    font-size: 22px;
+    font-size: 20px;
      text-align: center;
         position: relative;
 }
@@ -343,10 +338,20 @@ p{
 }
 
 video {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
     width: 400px;
 }
+
+@media (max-width: 670px) {
+  video {
+    max-width: 90%;
+  }
+  #about_us_section > div > div > div:nth-child(1) > div{
+  margin-bottom: 10vh;
+} 
+}
+
 .about_us_class{
     display:flex;
     justify-content: center;
@@ -355,22 +360,18 @@ video {
     margin-top: 5vh;
 }    
 
-#partners_section{
+/*#partners_section{
     background-color: white;
-    height: 90vh;
+    height: 100vh;
     color:black !important;
     width: 100%;
-    float:left;
-}
+}*/
 
 #brochure{
-    background-color: white;
+    margin-bottom: 15vh !important;
 }
 
-@media screen and (max-width: 780px) {
-    .partners{
-    height: 50vh;
-    }
+@media screen and (max-width: 670px) {
     .partness{
     height: 50vh;
     }
@@ -385,6 +386,11 @@ video {
     }
     .example{
         padding-bottom: 15vh;
+        padding-top: 0vh;
+        height:60vh;
+    }
+    #partners_section{
+        height: 110vh;
     }
 
 }

@@ -2,59 +2,8 @@ body
 {
 	color:black;
 	background: url("technicabackground.jpg");
-	/*font-size: 100;*/
-  
-
-	
 }
-/*.button1{
-    	font-size: 10;
-    	font-color:white;
-    }
-*/
 
-/*p
-{
-	margin-left: 10%
-}*//*
-@media (min-width: 768px){
-.cardbody {
-margin-left: 20%
-}}*/
-
-/*.plus-minus-toggle {
-  cursor: pointer;
-  height: 21px;
-  position: relative;
-  width: 21px;
-  &:before,
-  &:after{
-    background: #000;
-    content: '';
-    height: 5px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 21px;
-    transition: transform 500ms ease;
-  }
-  &:after {
-    transform-origin: center;
-  }
-  &.collapsed {
-    &:after {
-      transform: rotate(90deg);
-    }
-    &:before {
-      transform: rotate(180deg);
-    }
-  }
-}*/
-
-
-{
-  padding: 30px;
-}
 .opened .vertical {
     transition: all 0.5s ease-in-out;
     transform: rotate(-90deg);
@@ -82,6 +31,7 @@ margin-left: 20%
     width: auto;
     font-size: 1em;
     opacity: 1;
+    margin: 0!important;
 }
 
 .circle-plus .circle {
@@ -110,4 +60,36 @@ margin-left: 20%
     margin-left: -2.5px;
     top: 50%;
     margin-top: -9.5px;
+}
+}
+#readmore
+{
+  margin-left: auto !important;
+  height:20rem;
+  width:166.23px;*/
+  color:#27a5ef;
+  margin-left: 20rem;
+}
+#toggle
+{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:.2rem;
+  font-size:1.5rem;
+  color:#27a5ef;
+  font-family:lemon milk;
+  box-sizing:border-box;
+  /*margin: auto!important;*/
+}
+
+
+#hello{
+display:none;
+}
+#hellonext{
+	display:none;
 }

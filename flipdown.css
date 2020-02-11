@@ -283,10 +283,23 @@
     height: 55px;
   }
 }
-@media only screen and (max-width: 786px){
+@media only screen and (min-width: 362px) and (max-width: 786px){
     .flipdown .rotor-group {
   padding-right: 0px; !important;
  padding-left: 25px !important;
 }
+    
 }
 
+@media only screen and (min-width: 740px) and (max-width: 786px){
+    .flipdown{
+        width:53vh;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .example .flipdown{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

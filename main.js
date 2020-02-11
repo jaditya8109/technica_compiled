@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // Set the date we're counting down to
-var countDownDate = new Date("Mar 23, 2020 08:00:00").getTime();
+var countDownDate = new Date("Mar 24, 2020 16:00:00").getTime();
     var now = new Date().getTime();
   var distance = countDownDate - now;
 
